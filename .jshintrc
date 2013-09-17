@@ -1,0 +1,16 @@
+{
+    "bitwise" : true,
+    "browser" : true,
+    "curly"   : true,
+    "eqeqeq"  : true,
+    "eqnull"  : true,
+    "strict"  : true,
+    "newcap"  : true,
+    "noarg"   : true,
+    "unused"  : true,
+    "globals": {
+        "exports" : true,
+        "module"  : false,
+        "chrome"  : true
+    }
+}

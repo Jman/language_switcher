@@ -1,0 +1,39 @@
+{
+  "name": "opc_form",
+  "title": "Magento Form Filler Local",
+  "description": "Extension for Google Chrome that switch Accept-Language header globaly or per site.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jman/language_switcher",
+  "author": {
+    "name": "Eugen Tereschenko",
+    "email": "i@jman.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jman/language_switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jman/language_switcher/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jman/language_switcher/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compress": "~0.5.1",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-jshint": "~0.5.4",
+    "grunt-autoprefixer": "~0.2.20130806",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-csso": "~0.5.0"
+  },
+  "keywords": [
+    "language",
+    "chrome",
+    "locale"
+  ]
+}

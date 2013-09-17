@@ -1,0 +1,23 @@
+{
+    "name"              : "Language Switcher",
+    "description"       : "Change Accept-Language header globaly or per site",
+    "version"           : "0.0.1",
+    "manifest_version"  : 2,
+    "browser_action"    : {
+        "default_title" : "Switch Language",
+        "default_icon"  : "img/logo_19.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions"       : [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*" ],
+    "background"        : { "scripts": ["js/background.js"] },
+    "options_page"      : "options.html",
+    "icons"             : {
+        "48"            : "img/logo_48.png",
+        "128"           : "img/logo_128.png"
+    }
+}
